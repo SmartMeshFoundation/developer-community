@@ -1,7 +1,9 @@
 # SmartMesh Developer Community Wiki
   
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/SmartMesh-Developer-Community/Lobby)
-[![Join the chat at https://gitter.im/sahat/hackathon-starter](https://gitter.im/SmartMesh-Developer-Community/Lobby)
+
+
+[![Join the chat at](https://gitter.im/sahat/hackathon-starter)](https://gitter.im/SmartMesh-Developer-Community/Lobby)
 
 
 ## Introduction
