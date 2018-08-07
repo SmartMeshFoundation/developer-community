@@ -1,6 +1,6 @@
 # SmartMesh Developer Community Wiki
 
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/SmartMesh-Developer-Community/Lobby)
+ [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/SmartMesh-Developer-Community/Lobby)
 
 ## Introduction
 SmartMesh是一个基于区块链token激励机制的开放式、共享型Mesh网络基础协议，SmartMesh生态的本质是一个庞大的通证生态。生态的建设离不开SmartMesh开发者社区，SmartMesh开发者社区希望吸引全球对SmartMesh项目感兴趣的朋友，一起交流一起讨论，可以从理论开始探讨，从不同维度和视角思考SmartMesh的生态体系，从更高的维度对SmartMesh和MeshBox提出面向未来的规划和需求，并参与实施与落地。我们希望这是一个很科幻，很脑洞的社区，鼓励乌托邦式的想法，仰望星空但要脚踏实地，所以开发者社区会大力激励有创想有能力的开发人才，一起大胆的想，大胆的干！
