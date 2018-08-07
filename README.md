@@ -1,7 +1,4 @@
 # SmartMesh Developer Community Wiki
-  
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/SmartMesh-Developer-Community/Lobby)
-
 
 [![Join the chat at](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/SmartMesh-Developer-Community/Lobby)
 
