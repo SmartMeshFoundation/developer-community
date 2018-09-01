@@ -273,7 +273,7 @@ def get_new_shuffling(seed, validators, dynasty, crosslinking_start_shard):
 
 下边是一张工作流程示意图：
 
-![](img/Casper+ShardingChainV2.1-01.png)
+![](img/Casper+ShardingChainV2.1-02.png)
 
 同时，我们定义
 ```
