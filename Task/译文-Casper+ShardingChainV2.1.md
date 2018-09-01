@@ -197,7 +197,7 @@ fields = {
 
 这里有一个它的工作示例（绿色的是终结区块，黄色的是合法区块，灰色的是证明）
 
-![](img/Casper+ShardingChainV2.1-01)
+![](img/Casper+ShardingChainV2.1-01.png)
 
 ##### 信标链状态转移函数
 我们现在定义状态转移函数。从比较高的层面讲，状态转移由2部分组成：
@@ -273,7 +273,7 @@ def get_new_shuffling(seed, validators, dynasty, crosslinking_start_shard):
 
 下边是一张工作流程示意图：
 
-![](img/Casper+ShardingChainV2.1-01)
+![](img/Casper+ShardingChainV2.1-01.png)
 
 同时，我们定义
 ```
