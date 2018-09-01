@@ -134,7 +134,7 @@ fields = {
 }
 ```
 
-```ShardAndCommittee``` 对象的形式：
+这是```ShardAndCommittee``` 对象的形式：
 
 ```
 fields = {
@@ -166,7 +166,7 @@ fields = {
 }
 ```  
 
-```CrosslinkRecord``` 包含了上一个被提交到链上的完整的交联信息：
+在```CrosslinkRecord``` 包含了上一个被提交到链上的完整的交联信息：
 ```
 fields = {
     # What dynasty the crosslink was submitted in
@@ -197,7 +197,7 @@ fields = {
 
 这里有一个它的工作示例（绿色的是终结区块，黄色的是合法区块，灰色的是证明）
 
-![](img/Casper+Sharding chain v2.1-01.png)
+![](https://github.com/stone-ch/developer-community/blob/master/Task/img/Casper+Sharding chain v2.1-01.png)
 
 ##### 信标链状态转移函数
 我们现在定义状态转移函数。从比较高的层面讲，状态转移由2部分组成：
@@ -273,7 +273,7 @@ def get_new_shuffling(seed, validators, dynasty, crosslinking_start_shard):
 
 下边是一张工作流程示意图：
 
-![](img/Casper+Sharding chain v2.1-02.png)
+![](https://github.com/stone-ch/developer-community/blob/master/Task/img/Casper+Sharding chain v2.1-02.png)
 
 同时，我们定义
 ```
@@ -288,7 +288,7 @@ def get_block_hash(active_state, curblock, slot):
     return active_state.recent_block_hashes[slot - sback]
 ```
 
-```get_block_hash(*, *, h)``` 应该总是在时间 ```h``` 的时候返回一个区块，```get_indices_for_slot(*, h)``` 在朝代（dynasty）变更之前不应该有变化。
+这里，```get_block_hash(*, *, h)``` 应该总是在时间 ```h``` 的时候返回一个区块，```get_indices_for_slot(*, h)``` 在朝代（dynasty）变更之前不应该有变化。
 
 ##### 启动时
 - 让 ```x = get_new_shuffling(bytes([0] * 32), validators, 1, 0)``` 然后设置 ```crystallized_state.indices_for_slots``` 为  ```x + x```
@@ -312,7 +312,7 @@ def get_new_recent_block_hashes(old_block_hashes, parent_slot,
     return old_block_hashes[d:] + [parent_hash] * min(d, len(old_block_hashes))
 ```
 
-```get_block_hash``` 的输出不应该改变，除非他不再抛出 ```current_slot - 1````, 而抛出 ```current_slot - CYCLE_LENGTH * 2 - 1```
+这里，```get_block_hash``` 的输出不应该改变，除非他不再抛出 ```current_slot - 1````, 而抛出 ```current_slot - CYCLE_LENGTH * 2 - 1```
 
 一个区块可以有0个或者多个 ```AttestationRecord```,每一个 ```AttestationRecord``` 对象结构如下：
 ```
