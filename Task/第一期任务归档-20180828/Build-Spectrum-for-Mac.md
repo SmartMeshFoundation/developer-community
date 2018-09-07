@@ -1,5 +1,5 @@
 How to build Spectrum under Mac OS
-=============================
+==================================
 
 ## environment setup
 #### install golang
@@ -49,4 +49,5 @@ test smc
   ```
 ---
 ## About IDE
-The popular golang IDE under Mac are GoLand，VSCode，GoVim...，choose the IDE you like。
+The popular golang IDE under Mac are GoLand，VSCode，GoVim...，choose the IDE you like.
+
