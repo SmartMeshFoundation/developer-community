@@ -50,4 +50,7 @@ test smc
 ---
 ## About IDE
 The popular golang IDE under Mac are GoLand，VSCode，GoVim...，choose the IDE you like.
-
+take GoLand as an example to debug Spectrum。
+File -> Open -> $GOPATH/src/github.com/SmartMeshFoundation/Spectrum/
+go to cmd/smc/main.go, Press F5。
+![Screen Shot 2018-09-06 at 3.48.14 PM.png](https://upload-images.jianshu.io/upload_images/13870844-025f9bb19996a07d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
