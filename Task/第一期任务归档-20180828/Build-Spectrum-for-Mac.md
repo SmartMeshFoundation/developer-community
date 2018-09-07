@@ -1,6 +1,8 @@
 How to build Spectrum under Mac OS
 ==================================
 
+editor：@sxsong04 reviewer：@rectinajh
+
 ## environment setup
 #### install golang
   ```
