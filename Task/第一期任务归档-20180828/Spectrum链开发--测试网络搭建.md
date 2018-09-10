@@ -1,3 +1,5 @@
+编辑人：@anray 审阅人：@rectinajh
+
 本文将演示在服务器端搭建Spectrum测试网络的过程，操作系统为CentOS 7.4 64位，已安装并配置好go运行环境，同时已下载Spectrum源码并成功编译。对上述系统环境搭建不熟悉的读者，可以参考《[Spectrum链开发--Linux环境搭建](https://github.com/SmartMeshFoundation/developer-community/blob/master/Task/%E7%AC%AC%E4%B8%80%E6%9C%9F%E4%BB%BB%E5%8A%A1%E5%BD%92%E6%A1%A3-20180828/Spectrum%E9%93%BE%E5%BC%80%E5%8F%91--Linux%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)》一文。
 
 #### 1. 初始化创世区块
